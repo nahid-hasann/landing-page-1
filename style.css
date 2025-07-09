@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+
+.banner h1 {
+   font-size: 72px; 
+}
+
+.banner h6{
+    font-size: 32px;
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-of{
+    font-size: 88px;
+    color: red;
+}
+
+.discount-p{
+    font-size: 24px ;
+    color: red;
+
+}
+
+.discount-h{
+    font-size: 48px;
+}
+
+.discount-section{
+    margin: 130px 0;
+}
+
+.midnight-party{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/Vectorrr.png');
+    align-items: center;
+    padding: 40px 100px;
+    border-radius: 10px;
+    gap: 40px;
+    margin-bottom: 130px;
+}
+
+.offer{
+    background: linear-gradient(to bottom, #ffeaea, #ffffff);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+    border-radius: 10px;
+}
+
+.btn{
+    padding: 13px 24px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.new-best-offer{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 130px auto;
+}
+
+.new-offer2 .circle-border{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    border: 20px solid red;
+    
+}
+
+.new-offer2 img {
+    width: 90%;                 /* Size adjust */
+    height: auto;
+    object-fit: cover;          /* Maintain image aspect */
+}
+
+.holidays{
+    margin-bottom: 130px;
+}
+
+.img1{
+    width: 674px;
+}
+
+.img2{
+    width: 200px;
+    margin-bottom: 300px;
+    margin-right: 70px;
+}
+
+.holidays-img{
+    background-image: url('images/rectangle.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+}
