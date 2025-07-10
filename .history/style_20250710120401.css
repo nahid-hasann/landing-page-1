@@ -210,7 +210,4 @@
 
 .footer-end{
     display: flex;
-    color: white;
-    justify-content: space-between;
-    margin-top: 50px;
 }

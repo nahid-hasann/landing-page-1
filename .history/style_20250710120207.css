@@ -203,14 +203,4 @@
     gap: 40px;
 }
 
-.img4 img{
-    height: 64px;
-    width: 64px;
-}
-
-.footer-end{
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    margin-top: 50px;
-}
+.img
